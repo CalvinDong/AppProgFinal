@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" 
+          alignment="center" 
+          minWidth="300"
+          VBox.vgrow="ALWAYS"
+          spacing="10" 
+          fx:controller="controller.ErrorController"
+          styleClass="root">
+    
+    <Label text="Invalid price entered."/>
+    <Button fx:id="OkayBtn" text="Okay" onAction="#handleOkay"/>
+
+</VBox>
+
